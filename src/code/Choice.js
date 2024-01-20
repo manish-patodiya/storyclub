@@ -30,7 +30,21 @@ const Choice = () => {
             aliquip ex ea commodo consequat.
           </p>
         </Row>
-        <Row>
+        <Row className="mt-5">
+          <Col
+            className="d-flex justify-content-center"
+            style={{ fontWeight: 800, fontSize: 25 }}
+          >
+            Audio Stories
+          </Col>
+          <Col
+            className="d-flex justify-content-center"
+            style={{ fontWeight: 800, fontSize: 25 }}
+          >
+            Video Stories
+          </Col>
+        </Row>
+        <Row className="mt-3">
           <Col
             className="d-flex justify-content-center flex-wrap "
             style={{ borderRight: "2px solid" }}
