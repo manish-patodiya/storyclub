@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storyclub/static/css/main.b458d7c8.css",
-    "main.js": "/storyclub/static/js/main.21d64a38.js",
+    "main.js": "/storyclub/static/js/main.c1dda608.js",
     "static/js/787.fad0710e.chunk.js": "/storyclub/static/js/787.fad0710e.chunk.js",
     "static/media/kids.png": "/storyclub/static/media/kids.d3508d1607c8da7c5c24.png",
     "static/media/mask.png": "/storyclub/static/media/mask.c58cc023def052e2b2a9.png",
@@ -10,14 +10,15 @@
     "static/media/image3.png": "/storyclub/static/media/image3.0447652de62362e210b9.png",
     "static/media/image2.png": "/storyclub/static/media/image2.7758a9104c0ad83429a4.png",
     "static/media/image5.png": "/storyclub/static/media/image5.ce9f50943fc5f65ddc17.png",
+    "static/media/frame.png": "/storyclub/static/media/frame.8d8f6ecd91a3b9a39743.png",
     "static/media/logo.png": "/storyclub/static/media/logo.af5d1c680c0e7f00ff18.png",
     "index.html": "/storyclub/index.html",
     "main.b458d7c8.css.map": "/storyclub/static/css/main.b458d7c8.css.map",
-    "main.21d64a38.js.map": "/storyclub/static/js/main.21d64a38.js.map",
+    "main.c1dda608.js.map": "/storyclub/static/js/main.c1dda608.js.map",
     "787.fad0710e.chunk.js.map": "/storyclub/static/js/787.fad0710e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b458d7c8.css",
-    "static/js/main.21d64a38.js"
+    "static/js/main.c1dda608.js"
   ]
 }
