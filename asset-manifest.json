@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storyclub/static/css/main.b458d7c8.css",
-    "main.js": "/storyclub/static/js/main.1eb815e8.js",
+    "main.js": "/storyclub/static/js/main.3ec25076.js",
     "static/js/787.fad0710e.chunk.js": "/storyclub/static/js/787.fad0710e.chunk.js",
     "static/media/kids.png": "/storyclub/static/media/kids.d3508d1607c8da7c5c24.png",
     "static/media/mask.png": "/storyclub/static/media/mask.c58cc023def052e2b2a9.png",
@@ -16,11 +16,11 @@
     "static/media/mentons.png": "/storyclub/static/media/mentons.aa4dba1106133bef3e50.png",
     "index.html": "/storyclub/index.html",
     "main.b458d7c8.css.map": "/storyclub/static/css/main.b458d7c8.css.map",
-    "main.1eb815e8.js.map": "/storyclub/static/js/main.1eb815e8.js.map",
+    "main.3ec25076.js.map": "/storyclub/static/js/main.3ec25076.js.map",
     "787.fad0710e.chunk.js.map": "/storyclub/static/js/787.fad0710e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b458d7c8.css",
-    "static/js/main.1eb815e8.js"
+    "static/js/main.3ec25076.js"
   ]
 }
