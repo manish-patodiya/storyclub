@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/storyclub/static/css/main.b458d7c8.css",
-    "main.js": "/storyclub/static/js/main.c1dda608.js",
+    "main.js": "/storyclub/static/js/main.1eb815e8.js",
     "static/js/787.fad0710e.chunk.js": "/storyclub/static/js/787.fad0710e.chunk.js",
     "static/media/kids.png": "/storyclub/static/media/kids.d3508d1607c8da7c5c24.png",
     "static/media/mask.png": "/storyclub/static/media/mask.c58cc023def052e2b2a9.png",
+    "static/media/foot-background.png": "/storyclub/static/media/foot-background.2117a6ba3b881ac85b15.png",
     "static/media/image1.png": "/storyclub/static/media/image1.e291591e80717ce9d54f.png",
     "static/media/image4.png": "/storyclub/static/media/image4.b17e25139f0cef711258.png",
     "static/media/image3.png": "/storyclub/static/media/image3.0447652de62362e210b9.png",
@@ -12,13 +13,14 @@
     "static/media/image5.png": "/storyclub/static/media/image5.ce9f50943fc5f65ddc17.png",
     "static/media/frame.png": "/storyclub/static/media/frame.8d8f6ecd91a3b9a39743.png",
     "static/media/logo.png": "/storyclub/static/media/logo.af5d1c680c0e7f00ff18.png",
+    "static/media/mentons.png": "/storyclub/static/media/mentons.aa4dba1106133bef3e50.png",
     "index.html": "/storyclub/index.html",
     "main.b458d7c8.css.map": "/storyclub/static/css/main.b458d7c8.css.map",
-    "main.c1dda608.js.map": "/storyclub/static/js/main.c1dda608.js.map",
+    "main.1eb815e8.js.map": "/storyclub/static/js/main.1eb815e8.js.map",
     "787.fad0710e.chunk.js.map": "/storyclub/static/js/787.fad0710e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b458d7c8.css",
-    "static/js/main.c1dda608.js"
+    "static/js/main.1eb815e8.js"
   ]
 }
