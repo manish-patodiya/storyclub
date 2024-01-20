@@ -1,17 +1,25 @@
 import "./App.css";
 import { Container } from "react-bootstrap";
 // import App from './App';
-import { Header, Card1, Card2, Card3, Card4 } from "./code/Content";
+import Header from "./code/Header";
+import Introduction from "./code/Introduction";
+import FeaturedStories from "./code/FeaturedStories";
+import Choice from "./code/Choice";
+import Workshops from "./code/Workshops";
+import Reviews from "./code/Reviews";
+import Footer from "./code/Footer";
 
 function App() {
   return (
-    <Container fluid>
+    <>
       <Header />
-      <Card1 />
-      <Card2 />
-      <Card3 />
-      <Card4 />
-    </Container>
+      <Introduction />
+      <Choice />
+      <FeaturedStories />
+      <Workshops />
+      <Reviews />
+      <Footer />
+    </>
   );
 }
 
