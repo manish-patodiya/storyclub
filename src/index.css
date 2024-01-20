@@ -1,13 +1,53 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:  #f9ece1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-skin{
+  background-color:  #f9ece1 !important;
+  color: black !important;
+}
+
+
+.btn-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: hsl(4, 58%, 59%);
+  --bs-btn-border-color: #d4635b;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d4635b;
+  --bs-btn-hover-border-color: #d4635b;
+  --bs-btn-focus-shadow-rgb: 225,83,97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #d4635b;
+  --bs-btn-active-border-color: #d4635b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #d4635b;
+  --bs-btn-disabled-border-color: #d4635b;
+}
+
+.btn-warning {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #f3d6c0;
+  --bs-btn-border-color: #f3d6c0;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #f3d6c0;
+  --bs-btn-hover-border-color: #f3d6c0;
+  --bs-btn-focus-shadow-rgb: 217,164,6;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #f3d6c0;
+  --bs-btn-active-border-color: #f3d6c0;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #f3d6c0;
+  --bs-btn-disabled-border-color: #f3d6c0;
+}
+
+.bg-pink{
+  background-color: #d4635b;
+  color: white !important;
+  padding: 3rem;
 }
