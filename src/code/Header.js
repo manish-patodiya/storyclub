@@ -1,24 +1,33 @@
 import logo from "../img/logo.png";
-import { Button, Navbar, Image, Container } from "react-bootstrap";
-import { Search, MenuApp } from "react-bootstrap-icons";
+import { useState } from "react";
+import { Row, Col, Button, Image, Container } from "react-bootstrap";
+import { Sliders2 } from "react-bootstrap-icons";
+import MenuList from "./MenuList";
 
 const Header = () => {
+  const [modalShow, setModalShow] = useState(false);
   return (
-    <Container>
-      <Navbar className="bg-skin justify-content-between bg-white">
-        <Image src={logo} width={200} />
-        <div>
-          <Button variant="outline-danger" className="me-2">
-            <Search />
+    <Container className="pt-4">
+      <Row className="justify-content-between bg-white align-item-center">
+        <Col className="d-flex align-items-center"></Col>
+        <Col className="d-flex align-items-center justify-content-center">
+          <Image src={logo} width={200} />
+        </Col>
+        <Col className="d-flex align-items-center justify-content-end">
+          <Button variant="outline-maroon me-2 rounded-pill">
+            Become a Member
           </Button>
-          <Button variant="outline-danger" className="me-2">
-            Sign Up
+
+          <Button
+            variant="maroon rounded-circle"
+            onClick={() => setModalShow(true)}
+          >
+            <Sliders2 />
           </Button>
-          <Button variant="outline-danger" className="me-2">
-            <MenuApp />
-          </Button>
-        </div>
-      </Navbar>
+
+          <MenuList show={modalShow} onHide={() => setModalShow(false)} />
+        </Col>
+      </Row>
     </Container>
   );
 };

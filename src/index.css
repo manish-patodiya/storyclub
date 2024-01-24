@@ -1,18 +1,68 @@
+@font-face {
+  font-family: "Paralucent W00 Medium";
+  src: url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.eot");
+  src: url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/f0ea4ec01961a71ed24801fb00ce3c9e.svg#Paralucent W00 Medium")format("svg");
+}
+
 body {
   margin: 0;
-  font-family: cursive;
+  font-family: "Paralucent W00 Medium";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:  #f9ece1;
+  background-color:  #FFFFFF;
 }
 
 .bg-skin{
-  background-color:  #f9ece1 !important;
+  background-color:  #FDC6C2 !important;
   color: black !important;
 }
 
+.bg-maroon{
+  background-color: #d4635b;
+  color: #fff;
+}
 
-.btn-danger {
+.bg-maroon-light{
+  background-color: #d4635b;
+  color: white !important;
+  padding: 3rem;
+}
+
+.bg-warning-light {
+  background-color: #F5C365;
+  color: #000;
+}
+
+.text-maroon{
+  color: #d4635b !important;
+}
+
+.text-warning-light{
+  color: #F5C365;
+}
+
+.btn-warning {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #F5C365;
+  --bs-btn-border-color: #F5C365;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #F5C365;
+  --bs-btn-hover-border-color: #F5C365;
+  --bs-btn-focus-shadow-rgb: 217,164,6;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #F5C365;
+  --bs-btn-active-border-color: #F5C365;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: #F5C365;
+  --bs-btn-disabled-border-color: #F5C365;
+}
+
+.btn-maroon {
   --bs-btn-color: #fff;
   --bs-btn-bg: hsl(4, 58%, 59%);
   --bs-btn-border-color: #d4635b;
@@ -29,7 +79,24 @@ body {
   --bs-btn-disabled-border-color: #d4635b;
 }
 
-.btn-warning {
+.btn-outline-maroon {
+  --bs-btn-color: #000;
+  --bs-btn-border-color: #d4635b;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #d4635b;
+  --bs-btn-hover-border-color: #d4635b;
+  --bs-btn-focus-shadow-rgb: 220,53,69;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #d4635b;
+  --bs-btn-active-border-color: #d4635b;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #d4635b;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #d4635b;
+  --bs-gradient: none;
+}
+
+.btn-skin {
   --bs-btn-color: #000;
   --bs-btn-bg: #f3d6c0;
   --bs-btn-border-color: #f3d6c0;
@@ -46,8 +113,75 @@ body {
   --bs-btn-disabled-border-color: #f3d6c0;
 }
 
-.bg-pink{
-  background-color: #d4635b;
-  color: white !important;
-  padding: 3rem;
+
+
+.fw-700{
+  font-weight: 700;
 }
+
+.fw-800{
+  font-weight: 800;
+}
+
+.fw-900{
+  font-weight: 900;
+}
+
+.fw-1000{
+  font-weight: 1000;
+}
+
+
+/*Modal */
+	.modal.right .modal-dialog {
+		position: fixed;
+		margin: auto;
+		width: 320px;
+		height: 100%;
+    transition: width 0.5;
+	}
+
+	.modal.right .modal-content {
+		height: 100%;
+		overflow-y: auto;
+	}
+	
+	.modal.right .modal-body {
+		padding: 15px 15px 80px;
+	} 
+        
+	.modal.right.fade .modal-dialog {
+		right: 0;
+		-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+		   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+		     -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+		        transition: opacity 0.3s linear, right 0.3s ease-out;
+	}
+	
+	.modal.right.fade.in .modal-dialog {
+		right: 0;
+	}
+
+  /* ----- MODAL STYLE ----- */
+  .modal-content {
+		border-radius: 0;
+		border: none;
+	}
+
+  a{
+    text-decoration: none;
+  }
+
+  .menu.active{
+    background-color: #e97b7b;
+    color: #fff !important
+  }
+
+  .menu:hover{
+    background-color: #e97b7b;
+    color: #fff !important
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
